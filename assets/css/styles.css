@@ -1,0 +1,8 @@
+body {
+    margin: 0 auto;
+}
+
+
+button, div, form, input {
+  margin: 10px;
+}
