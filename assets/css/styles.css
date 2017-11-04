@@ -1,8 +1,39 @@
+* {
+    display: block;
+}
+
 body {
     margin: 0 auto;
+    position: absolute;
+    max-width: 95%;
+    min-width: 95%;
 }
 
 
-button, div, form, input {
-  margin: 10px;
+button {
+  float: left;
+}
+
+.formWrap {
+    float: right;
+    position: sticky;
+    border: 1px solid black;
+    height: 90vh;
+    max-width: 100%;
+    text-align: center;
+    background-color: #F8F8FF;
+    box-shadow: 3px 3px 2px #888888;
+    font-family: "Arial Black", arial;
+    color: #2F4F4F;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+}
+
+#gen-buttons-view {
+    float: left;
+    border; 1px solid black;
+    overflow: auto;
 }
