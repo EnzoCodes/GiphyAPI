@@ -1,5 +1,5 @@
-* {
-    display: block;
+title {
+    display: none !important;
 }
 
 body {
