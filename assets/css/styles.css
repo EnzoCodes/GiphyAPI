@@ -14,18 +14,25 @@ button {
   float: left;
 }
 
+.buttonZone {
+    max-width: 60%;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 15px;
+}
+
 .formWrap {
     float: right;
-    position: sticky;
+    position: absolute;
     border: 1px solid black;
-    height: 90vh;
+    height: 35vh;
     max-width: 100%;
     text-align: center;
     background-color: #F8F8FF;
     box-shadow: 3px 3px 2px #888888;
     font-family: "Arial Black", arial;
     color: #2F4F4F;
-    padding: 10px;
+    padding: 10px 15px;
+    right: 1px;
 }
 
 .container {

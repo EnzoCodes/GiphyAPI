@@ -11,37 +11,36 @@
 
 
     <div class="container">
-    <!-- Preset buttons here -->
-        <button data-name="Cat" > Felines </button>
-        <button data-name="Feline"> Cats </button>
-        <button data-name="Kitten"> Kittens </button>
-        <button data-name="Tigers"> Big Cats </button>
-        <button data-name="Hairless Cat"> Hairless Cats </button>
-        <button data-name="Fat Cat"> Fat Cat </button>
-        <button data-name="Spanish Inquisition"> Spanish Inquisition </button>
-        <button data-name="Paws"> Paws </button>
-        <!-- how are these values being turned into urls? -->
+        <div class="formWrap">
+            <form id="gif-form">
+              <label for="gif-input">Search Giphy</label>
+              <input type="text" id="gif-input"><br>
 
-<!-- User Generated Buttons will get Dumped Here  -->
-    <div id="buttons-view">
+              <!-- Button triggers new gifs to be added -->
+              <input id="add-gif" type="submit" value="Search Giphy">
+            </form>
+        </div>
 
-    <div id="gen-buttons-view"></div>
+        <div class="buttonZone">
+        <!-- Preset buttons here -->
+            <button data-name="Cat" > Felines </button>
+            <button data-name="Feline"> Cats </button>
+            <button data-name="Kitten"> Kittens </button>
+            <button data-name="Tigers"> Big Cats </button>
+            <button data-name="Hairless Cat"> Hairless Cats </button>
+            <button data-name="Fat Cat"> Fat Cat </button>
+            <button data-name="Spanish Inquisition"> Spanish Inquisition </button>
+            <button data-name="Paws"> Paws </button>
 
-    </div>
+            <!-- User Generated Buttons will get Dumped Here  -->
+            <div id="buttons-view">
+            <div id="gen-buttons-view"></div>
+            </div>
+        </div>
 
     <!-- Generated Gifs get dumped here -->
     <div id="gif-view">
         <article id="gif-view-inside"> </article>
-    </div>
-
-    <div class="formWrap">
-        <form id="gif-form">
-          <label for="gif-input">Search Giphy</label>
-          <input type="text" id="gif-input"><br>
-
-          <!-- Button triggers new gifs to be added -->
-          <input id="add-gif" type="submit" value="Search Giphy">
-        </form>
     </div>
 
   </div>
